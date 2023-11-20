@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #4caf50; /* Warna latar belakang hijau */
+}
+
+.login-container {
+  height: 100vh; /* Tinggi 100% dari viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white; /* Warna latar belakang formulir */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk memberikan kedalaman */
+}
+
+.login-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
